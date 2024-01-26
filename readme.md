@@ -8,7 +8,7 @@ A simple nu script for managing dotfiles.
 1. `dotfiles init`
 2. `dotfiles import` to import config file or directory. Or you can also `dotfiles new file`, `dotfiles new dir` to add empty config file or directory.
 3. `dotfiles set path` to set config path for another platform if you want.
-4. `dotfiles install` to install all entries in dotfiles.yaml. (*required privileges*)
+4. `dotfiles install` to install all entries in dotfiles.yaml. (*required privileges* on Windows)
 
 ## Example
 
@@ -37,3 +37,7 @@ dotfiles install
 # or this is shorthand for that
 nu dotfiles.nu install
 ```
+
+## known issue
+
+- `dotfiles install` fails when broken symlink already exists at config path.
