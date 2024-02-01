@@ -1,3 +1,5 @@
+Moved permanently -> [yukitomoda/dotfiles](https://github.com/yukitomoda/dotfiles/blob/master/dotfiles.nu)
+
 # dotfiles.nu
 
 A simple nu script for managing dotfiles.
